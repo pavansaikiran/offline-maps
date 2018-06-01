@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.pavan.maps.Main2Activity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/from"
+        android:layout_margin="20dp"
+        android:src="@drawable/shit"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/spinner1"
+        android:layout_marginLeft="35dp"
+        android:layout_alignTop="@id/spinner1"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/ic_pin_drop_black_24dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/spinner1"
+        android:layout_below="@id/from"
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="12dp"
+        android:textColorHint="#FFCDD2"
+        android:textColor="#FFCDD2"
+        android:hint="Enter location"
+        android:padding="15dp"
+        android:scrollbarSize="70dp"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/arrow1"
+        android:layout_alignTop="@id/spinner1"
+        android:layout_alignBottom="@id/spinner1"
+        android:layout_alignRight="@id/spinner1"
+        android:src="@drawable/ic_arrow_drop_down_black_24dp"/>
+
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:singleLine="true"
+        android:textColor="#FFCDD2"
+        android:hint="Enter destination"
+        android:layout_below="@id/spinner1"
+        android:textColorHint="#FFCDD2"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="28dp"
+        android:scrollbarSize="70dp"
+        android:padding="15dp"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_alignBottom="@id/spinner2"
+        android:layout_marginLeft="35dp"
+        android:layout_alignTop="@id/spinner2"
+        android:src="@drawable/ic_pin_drop_black_24dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/arrow2"
+        android:layout_alignTop="@id/spinner2"
+        android:layout_alignBottom="@id/spinner2"
+        android:layout_alignRight="@id/spinner2"
+        android:src="@drawable/ic_arrow_drop_down_black_24dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner2"
+        android:layout_margin="60dp"
+        android:text="CONTINUE"
+
+        android:id="@+id/butt"
+        android:background="@drawable/roundedbutton"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

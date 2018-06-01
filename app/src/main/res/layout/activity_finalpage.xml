@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.pavan.maps.finalpage">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/gradient"
+        android:id="@+id/listview"></ListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:layout_marginLeft="35dp"
+        android:textSize="25sp"
+        android:id="@+id/mindisttext"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginTop="20dp"
+        android:text="Show in map"
+        android:id="@+id/mapbutton"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+</LinearLayout>
